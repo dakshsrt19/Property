@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HousingService } from '../../services/housing.service';
+import { IProperty } from '../IProperty,interface';
 
 @Component({
   selector: 'app-property-list',
@@ -7,13 +8,14 @@ import { HousingService } from '../../services/housing.service';
   styleUrls: ['./property-list.component.css'],
 })
 export class PropertyListComponent implements OnInit {
-  properties: any = [];
+  properties!: Array<IProperty>;
   constructor(private HousingService: HousingService) {}
   ngOnInit(): void {
     this.HousingService.getAllProperties().subscribe(
       data=>{
         this.properties=data;
-        console.log(data);
+      }, error =>{
+        console.log(error);
       }
     )
   }
