@@ -37,6 +37,24 @@ export class PropertyListComponent implements OnInit {
       Type: 'Duplex House',
       Price: 120000,
     },
+    {
+      Id: 6,
+      Name: 'CCC House',
+      Type: 'Duplex House',
+      Price: 120000,
+    },
+    {
+      Id: 7,
+      Name: 'AAA House',
+      Type: 'Duplex House',
+      Price: 120000,
+    },
+    {
+      Id: 8,
+      Name: 'BBB House',
+      Type: 'Duplex House',
+      Price: 120000,
+    },
   ];
   constructor() {}
   ngOnInit(): void {}
