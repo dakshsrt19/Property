@@ -1,0 +1,50 @@
+[
+    {
+      "Id": 1,
+      "Name": "RK House",
+      "Type": "House",
+      "Price": 12000
+    },
+    {
+      "Id": 2,
+      "Name": "Daksh House",
+      "Type": "House",
+      "Price": 19000
+    },
+    {
+      "Id": 3,
+      "Name": "Saru House",
+      "Type": "House",
+      "Price": 12000
+    },
+    {
+      "Id": 4,
+      "Name": "RKS House",
+      "Type": "Pent House",
+      "Price": 12000
+    },
+    {
+     "Id": 5,
+      "Name": "RKT House",
+      "Type": "My House",
+      "Price": 122000
+    },
+    {
+      "Id": 6,
+      "Name": "RK House",
+      "Type": "House",
+      "Price": 162000
+    },
+    {
+      "Id": 7,
+      "Name": "BBB House",
+      "Type": "Inde House",
+      "Price": 120000
+    },
+    {
+      "Id": 8,
+      "Name": "AAA House",
+      "Type": "Duplex House",
+      "Price": 112000
+    }    
+  ]
