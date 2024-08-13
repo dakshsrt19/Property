@@ -1,9 +1,10 @@
 <div class="card">
   <div class="card-img-wrapper">
-    <img class="card-img-top" src="./assets/images/house-default.jpg" />
+    <img *ngIf="inputProperty.Image" class="card-img-top" src="./assets/images/{{inputProperty.Image}}.jpg" />
+    <img *ngIf="!inputProperty.Image" class="card-img-top" src="./assets/images/house-default.jpg" />    
     <ul class="list-inline text-center member-icons animate">
-        <li class="list-inline-item"><button class="btn btn-primary">Edit</button></li>
-        <li class="list-inline-item"><button class="btn btn-secondary">Contact</button></li>
+        <li class="list-inline-item"><button class="btn btn-primary" routerLink="/detail-property/{{inputProperty.Id}}">Edit</button></li>
+        <li class="list-inline-item"><button class="btn btn-secondary" routerLink="/detail-property/{{inputProperty.Id}}">Contact</button></li>
     </ul>
   </div>
   <div class="card-body p-2">

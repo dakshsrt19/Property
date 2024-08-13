@@ -1,10 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AddPropertyComponent } from './property/add-property/add-property.component';
+import { PropertyListComponent } from './property/property-list/property-list.component';
+import { PropertyDetailComponent } from './property/property-detail/property-detail.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: '', component: PropertyListComponent },
+  { path: '**', component: PropertyListComponent }, 
+  { path: 'rent-property', component: PropertyListComponent }, 
+  { path: 'add-property', component: AddPropertyComponent },  
+  { path: 'detail-property/:id', component: PropertyDetailComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

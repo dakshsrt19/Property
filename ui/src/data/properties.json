@@ -1,48 +1,63 @@
 [
     {
       "Id": 1,
+      "SellRent":1,
       "Name": "RK House",
       "Type": "House",
-      "Price": 12000
+      "Price": 12000,
+      "Image":"prop-1"
     },
     {
       "Id": 2,
+      "SellRent":1,
       "Name": "Daksh House",
       "Type": "House",
-      "Price": 19000
+      "Price": 19000,
+      "Image":"prop-2"
     },
     {
       "Id": 3,
+      "SellRent":1,
       "Name": "Saru House",
       "Type": "House",
-      "Price": 12000
+      "Price": 12000,
+      "Image":"prop-3"
     },
     {
       "Id": 4,
+      "SellRent":2,
       "Name": "RKS House",
       "Type": "Pent House",
-      "Price": 12000
+      "Price": 12000,
+      "Image":"prop-4"
     },
     {
      "Id": 5,
+     "SellRent":2,
       "Name": "RKT House",
       "Type": "My House",
-      "Price": 122000
+      "Price": 122000,
+      "Image":"prop-5"
     },
     {
       "Id": 6,
+      "SellRent":2,
       "Name": "RK House",
       "Type": "House",
-      "Price": 162000
+      "Price": 162000,
+      "Image":"prop-6"
     },
     {
       "Id": 7,
+      "SellRent":1,
       "Name": "BBB House",
       "Type": "Inde House",
-      "Price": 120000
+      "Price": 120000,
+      "Image":"prop-7"
     },
     {
       "Id": 8,
+      "SellRent":2,
       "Name": "AAA House",
       "Type": "Duplex House",
       "Price": 112000
